@@ -7,7 +7,6 @@ environment:
 install:
   - node --version
   - npm --version
-  - cd blog/
   - npm install
   - npm install hexo-cli -g
 
