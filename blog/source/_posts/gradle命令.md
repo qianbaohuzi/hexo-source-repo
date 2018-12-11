@@ -18,7 +18,7 @@ java插件定义了两个源集,main和test.main为源代码,会被打成jar包,
 ```base
 sourceset{
 	main{
-		
+		srcDir()	
 	}
 	test{
 
