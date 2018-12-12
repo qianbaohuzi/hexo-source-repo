@@ -111,9 +111,9 @@ menu_icons:
 # ---------------------------------------------------------------
 
 # Schemes
-scheme: Muse
-#scheme: Mist
-#scheme: Pisces
+# scheme: Muse
+scheme: Mist
+# scheme: Pisces
 #scheme: Gemini
 
 
@@ -230,8 +230,8 @@ post_meta:
 # Dependencies: https://github.com/willin/hexo-wordcount
 post_wordcount:
   item_text: true
-  wordcount: false
-  min2read: false
+  wordcount: true    #单篇  字数统计
+  min2read: true     #单篇  阅读时长
   totalcount: false
   separated_meta: true
 
@@ -804,6 +804,7 @@ vendors:
   needMoreShare2:
 
 
+
 # Assets
 css: css
 js: js
@@ -811,3 +812,7 @@ images: images
 
 # Theme version
 version: 5.1.4
+
+#文章末尾添加结束标记
+passage-end-tag:
+  enable: true

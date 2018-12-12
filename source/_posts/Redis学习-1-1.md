@@ -2,6 +2,7 @@
 title: Redis学习(1)
 date: 2018-10-03 20:36:52
 tags: redis
+description: redis 安装及简单命令
 ---
 ### Redis的安装
 以CentOs7为为例,仅需要

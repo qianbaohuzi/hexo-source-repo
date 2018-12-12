@@ -2,9 +2,10 @@
 title: gradle命令
 date: 2018-12-06 14:17:24
 tags:
+description: 关于gradle构建Java项目的一些东西
 ---
 #### 前言
-项目中一直有用到gradle来构建项目,使用了以后,发现极为好用,但是又因为之前没有用过,很多东西不明白,所以有本文章用来记录gradle相关
+项目中一直有用到gradle来构建项目,使用了以后,发现极为好用,因为之前没有用过,很多东西不熟悉,所以有本文章用来记录gradle相关
 
 #### 插件
 在gradle.build中加入如下代码
@@ -21,7 +22,7 @@ sourceset{
 		srcDir()	
 	}
 	test{
-
+		srcDir()
 	}
 }
 ```
